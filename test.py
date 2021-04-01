@@ -26,7 +26,8 @@ remove_list = []
 for i in final_list:
     if i % number1 == 0 and i % number2 == 0:
         remove_list.append(i)
-print(remove_list)
+print(remove_list).0
+
 
 
 remove_list.sort()
