@@ -1,4 +1,8 @@
 import os
-os.system("git add .")
-os.system("git commit -m \"commiter\"")
-os.system("git push -u origin master")
+import time
+i = 0
+while i < 100000:
+    os.system("python pushcommand.py")
+    time.sleep(20)
+    i += 1
+    print("Pushing for {} times".format(i))
