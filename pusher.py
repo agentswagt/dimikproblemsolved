@@ -6,5 +6,5 @@ while i < 100000:
     
     
     print("[+]================Pushing for {} times=====================[+]".format(i))
-    time.sleep(100)
+    time.sleep(120)
     i += 1

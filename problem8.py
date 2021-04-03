@@ -1,3 +1,4 @@
+
 x = int(input())
 inputed_data = []
 number_list = []
@@ -39,9 +40,9 @@ for i in list_of_number_list:
     case_counter = list_of_number_list.index(i) + 1 
     print(f"Case {case_counter}: {i}")
 
-"""
-ShortCut:
 
+
+"""
 x = int(input())
 inputed_data = []
 number_list = []
@@ -49,6 +50,9 @@ list_of_number_list = []
 for i in range(x):
     inputed_data.append(input())
 for i in inputed_data:
-    i.sort()
-    print(i)
+    list1 = i.split()
+    a, b, c = int(list1[0]), int(list1[1]), int(list1[2])
+    list1[0], list1[1], list1[2] = a, b, c
+    list1.sort()
+    print(list1)
 """
